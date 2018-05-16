@@ -39,6 +39,7 @@ header {
     border-color: #cccccc;
     font-family: Georgia, Times, 'Times New Roman', serif;
     border-bottom: 2px lightgrey solid;
+    height: 59px;
 }
 
 footer {
@@ -69,4 +70,21 @@ footer p {
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 30px;
+}
+
+.header-content {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.header-menu {
+    right: 0px;
+    float: right;
+}
+
+.header-content h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    float: left;
 }
