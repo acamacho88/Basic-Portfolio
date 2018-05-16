@@ -7,6 +7,14 @@ body {
 
 h1, h2, h3 {
     color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.section-header {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -15,7 +23,9 @@ h1 {
 
 .profile-pic {
     float: left;
-    margin: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
 p {
@@ -28,6 +38,7 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px lightgrey solid;
 }
 
 footer {
@@ -57,5 +68,5 @@ footer p {
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding: 15px;
+    padding: 30px;
 }
