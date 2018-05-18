@@ -47,7 +47,8 @@ footer {
     height: 50px;
     border-top: 7px solid #4aaaa5;
     position: absolute;
-    width: 100%;    
+    width: 100%;
+    bottom: -40;    
 }
 
 footer p {
@@ -85,4 +86,8 @@ footer p {
     color: white;
     padding: 15px;
     float: left;
+}
+
+input {
+    width: 100%;
 }

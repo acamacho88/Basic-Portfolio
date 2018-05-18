@@ -6,32 +6,36 @@
     </head>
     <body>
         <header>
-            <h1>Alex Camacho</h1>
-            <ul>
-                <li>
-                    <a href="index.html">About</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+            <div class="header-content">
+                <h1>Alex Camacho</h1>
+                <ul class="header-menu">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </header>
-        <div class="contact-form">
-            <h1>Contact</h1>
-            <form action="/submit-contact-form">
-                <h3>Name:</h3>
-                <input type="text" placeholder="John Smith">
-                <h3>Email</h3>
-                <input type="text" placeholder="example@gmail.com">
-                <h3>Message:</h3>
-                <input type="textarea" placeholder="John Smith">
-                <br>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <section id="main-content">
+            <div class="contact-form">
+                <h1 class="section-header">Contact</h1>
+                <form action="/submit-contact-form">
+                    <h3>Name:</h3>
+                    <input type="text" placeholder="John Smith">
+                    <h3>Email</h3>
+                    <input type="text" placeholder="example@gmail.com">
+                    <h3>Message:</h3>
+                    <input type="textarea" placeholder="John Smith">
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
         <footer>
             <p>Copyright 2018</p>
         </footer>
