@@ -46,9 +46,8 @@ footer {
     background-color: #666666;
     height: 50px;
     border-top: 7px solid #4aaaa5;
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: -40;    
 }
 
 footer p {
