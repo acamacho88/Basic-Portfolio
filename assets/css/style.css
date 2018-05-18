@@ -105,3 +105,16 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+a {
+    float: left;
+    padding: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
