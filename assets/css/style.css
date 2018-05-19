@@ -107,7 +107,7 @@ button:hover {
     cursor: pointer;
 }
 
-a {
+ul.header-menu a {
     float: left;
     padding: 22px;
     text-align: center;
@@ -115,14 +115,29 @@ a {
     color: grey;
 }
 
-a:hover {
+ul.header-menu a:hover {
     background-color: #4aaaa5;
     color: white;
 }
 
-div.portfolio-images img {
+span.portfolio-images {
+    position: relative;
+}
+
+span.portfolio-images img {
     height: 150px;
     width: 170px;
-    padding-right: 20px;
-    padding-bottom: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+span.portfolio-images span {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 130px;
+    top: -90;
+    position: absolute;
+    z-index: 10;
+    left: 0;
 }
